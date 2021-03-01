@@ -332,10 +332,10 @@ a {
         width: 90vw;
     }
     .contact-section-address {
-        margin-left: 300px;
+        margin-left: 200px;
         flex-direction: column;
         flex-wrap: wrap;
-        width: 300px;
+        width: 280px;
     }
     .contact-section-address > div > span {
         font-size: 15px;
