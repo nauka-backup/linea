@@ -246,10 +246,9 @@ a {
 
 .contact-section-address {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 300px;
-    margin: 10px 0 0 200px;
+    flex-direction: row;
+    width: 550px;
+    margin: 10px 0 0 180px;
     font-size: 25px;
 }
 
@@ -303,16 +302,19 @@ a {
         font-size: 13px;
     }
     .contact-section-address {
+        display: flex;
+        flex-direction: column;
         font-size: 13px;
         width: 200px;
         margin: 50px;
     }
+
     .contact-section-address > div > span {
         font-size: 10px;
     }
 }
 
-@media (min-width: 576px) and (max-width: 830px) {
+@media (min-width: 576px) and (max-width: 1230px) {
     body {
         background-image: none;
     }
@@ -329,8 +331,13 @@ a {
     .contact-section {
         width: 90vw;
     }
+    .contact-section-address {
+        margin-left: 300px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
     .contact-section-address > div > span {
-        font-size: 10px;
+        font-size: 15px;
     }
 }
 
