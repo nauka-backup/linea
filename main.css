@@ -52,10 +52,6 @@
     font-size: 15px;
 }
 
-.text-sm {
-    font-size: 20px;
-}
-
 .text-md {
     font-size: 40px;
 }
@@ -250,16 +246,20 @@ a {
 
 .contact-section-address {
     display: flex;
-
-    flex-direction: row;
-    width: 500px;
-    margin: 10px 0 0 20%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 10px 0 0 200px;
+    font-size: 25px;
 }
 
 .contact-section-address > div {
     padding: 10px;
     margin: 10px;
     font-weight: 700;
+}
+.contact-section-address > div > span {
+    font-size: 15px;
 }
 
 .nav {
@@ -297,15 +297,18 @@ a {
     .contact-section {
         width: 300px;
         margin: 10px;
+        font-size: 20px;
     }
     .contact-section-list li {
         font-size: 13px;
     }
     .contact-section-address {
-        margin-left: 50px;
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: 100%;
+        font-size: 13px;
+        width: 200px;
+        margin: 50px;
+    }
+    .contact-section-address > div > span {
+        font-size: 10px;
     }
 }
 
@@ -325,6 +328,9 @@ a {
     }
     .contact-section {
         width: 90vw;
+    }
+    .contact-section-address > div > span {
+        font-size: 10px;
     }
 }
 
