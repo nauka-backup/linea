@@ -1,4 +1,6 @@
 //animate main page
+import gsap from 'gsap';
+
 gsap.fromTo(
     '#logo',
     {
