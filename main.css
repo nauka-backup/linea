@@ -245,7 +245,7 @@ a {
 .contact-section-list li {
     margin: 10px;
     font-weight: 700;
-    font-size: 23px;
+    font-size: 25px;
 }
 
 .contact-section-address {
@@ -284,7 +284,7 @@ a {
         font-size: 40px;
     }
     .l-container-sm {
-        top: 90%;
+        top: 85%;
         padding: 10px;
     }
     .l-header-left {
@@ -296,16 +296,14 @@ a {
     }
     .contact-section {
         width: 300px;
-        margin: 8px;
+        margin: 10px;
     }
     .contact-section-list li {
-        font-size: 18px;
+        font-size: 13px;
     }
     .contact-section-address {
         margin-left: 50px;
-
         flex-direction: column;
-
         flex-wrap: wrap;
         width: 100%;
     }
