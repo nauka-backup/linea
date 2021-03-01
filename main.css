@@ -335,6 +335,7 @@ a {
         margin-left: 300px;
         flex-direction: column;
         flex-wrap: wrap;
+        width: 300px;
     }
     .contact-section-address > div > span {
         font-size: 15px;
