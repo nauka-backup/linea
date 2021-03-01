@@ -1,0 +1,32 @@
+.nav {
+    width: 200px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact-section {
+    margin: 20% 0 5% 30%;
+    width: 50vw;
+}
+.contact-section-list {
+    margin: 20px 10px 0 20%;
+    border-bottom: 2px solid rgba(185, 181, 181, 0.5);
+    padding-bottom: $p50;
+}
+.contact-section-list li {
+    margin: 10px;
+    font-weight: 700;
+    font-size: 23px;
+}
+.contact-section-address {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    margin: 10px 0 0 20%;
+}
+.contact-section-address > div {
+    padding: 10px;
+    margin: 10px;
+    font-weight: 700;
+}

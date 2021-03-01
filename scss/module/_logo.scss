@@ -1,0 +1,45 @@
+@import './../abstracts/mixins';
+
+#logo {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    animation: fill 0.5s ease forwards 3.5s;
+
+    /* animation logo */
+    & path:nth-child(1) {
+        @include animationFill(297, 297, line-anim 2s ease forwards 0.1s);
+    }
+    & path:nth-child(2) {
+        @include animationFill(239, 239, line-anim 2s ease forwards 0.3s);
+    }
+    & path:nth-child(3) {
+        @include animationFill(422, 422, line-anim 2s ease forwards 0.6s);
+    }
+    & path:nth-child(4) {
+        @include animationFill(515, 515, line-anim 2s ease forwards 0.9s);
+    }
+    & path:nth-child(5) {
+        @include animationFill(506, 506, line-anim 2s ease forwards 1.2s);
+    }
+    & path:nth-child(6) {
+        @include animationFill(449, 449, line-anim 2s ease forwards 1.5s);
+    }
+    & path:nth-child(7) {
+        @include animationFill(246, 246, line-anim 2s ease forwards 1.8s);
+    }
+    & path:nth-child(8) {
+        @include animationFill(449, 449, line-anim 2s ease forwards 2.1s);
+    }
+    & path:nth-child(9) {
+        @include animationFill(334, 334, line-anim 2s ease forwards 2.1s);
+    }
+    & path:nth-child(10) {
+        @include animationFill(515, 515, line-anim 2s ease forwards 2.1s);
+    }
+    & path:nth-child(11) {
+        @include animationFill(467, 467, line-anim 2s ease forwards 2.1s);
+    }
+    & path:nth-child(12) {
+        @include animationFill(314, 314, line-anim 2s ease forwards 2.1s);
+    }
+}

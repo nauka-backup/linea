@@ -1,0 +1,18 @@
+@import './../abstracts/variables';
+
+.l-header-left {
+    flex: 0 0 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.l-header-right {
+    position: absolute;
+    top: 12%;
+    right: 50px;
+    transform: translateY(-50%);
+}
+.title {
+    font-size: $text-xl;
+}

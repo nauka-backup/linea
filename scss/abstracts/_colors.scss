@@ -1,0 +1,32 @@
+@import './variables';
+
+// border color properties
+.border-secondary {
+    border-color: $border-secondary;
+}
+.border-light {
+    border-color: $border-light;
+}
+
+// background colors
+$bg-colors: (
+    bg-primary: $bg-primary,
+    bg-yellow: $bg-yellow,
+);
+@each $name, $bg-color in $bg-colors {
+    .#{$name} {
+        background-color: $bg-color;
+    }
+}
+
+// text colors
+$text-colors: (
+    text-secondary: $text-secondary,
+    text-light: $text-light,
+);
+
+@each $name, $color in $text-colors {
+    .#{$name} {
+        color: $color;
+    }
+} ;

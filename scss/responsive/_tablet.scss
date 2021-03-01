@@ -1,0 +1,20 @@
+@import './../abstracts/variables';
+
+@media (min-width: $breakpoint-mobile) and (max-width: $breakpoint-tablet) {
+    body {
+        background-image: none;
+    }
+    #logo {
+        width: 500px;
+    }
+    .title {
+        font-size: 75px;
+    }
+    .l-container-sm {
+        top: 75%;
+        padding: $p10;
+    }
+    .contact-section {
+        width: 90vw;
+    }
+}
