@@ -19,7 +19,7 @@ gsap.fromTo(
         ease: 'elastic',
     },
     {
-        top: '-100%',
+        y: '-100%',
         duration: 0.4,
         delay: 4.5,
     }
